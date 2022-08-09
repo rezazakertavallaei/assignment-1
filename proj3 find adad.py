@@ -1,13 +1,6 @@
 
-
-adad=str(input('adad ra vared konid:'))
-
-print('jaygah adad haye khaste shode(mored nazar) ra az chap be rast az 0 ta entaha vared  konod')
-x=int(input())
-y=int(input())
-print('adad jaygah',x,'=')
-print(adad[x])
-print('adad khaste shode dar bazeh',x,y,'=')
-print(adad[x:(y+1)])
-print('adad jaygah',y,'=')
-print(adad[y])
+addad = int(input("addad ra vared konid: "))
+ragham2 = ((addad // 10) % 10)
+ragham5 = ((addad // 10000) % 10)
+sum = (ragham2 + ragham5)
+print("majmue argham 2 va 5=",sum)
